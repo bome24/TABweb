@@ -1,0 +1,20 @@
+.css {
+    text-decoration : underline;
+}
+#id-selector {
+    font-size : 30px;
+}
+.html.css{
+    color : darkgreen;
+    border : 1px solid hotpink;
+}
+p[class~="color"] {
+    font-style : italic;
+}
+p[class^="color"] {
+    border : 1px solid blue;
+}
+p[class$="color"] {
+    border : 1px solid red;
+    color : blue;
+}
